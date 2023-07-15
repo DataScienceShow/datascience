@@ -1,1 +1,0 @@
-![alt text](https://github.com/DataScienceShow/datascience/blob/1e4e899c0102218f77bf6bf6c6079aa83de2c992/DataScience/ToshkentHomePrices/2023-07-15%2016_46_30-Tashkent%20Home%20Price%20Prediction.png?raw=true)
