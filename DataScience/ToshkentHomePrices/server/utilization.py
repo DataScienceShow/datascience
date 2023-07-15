@@ -2,12 +2,12 @@ import json
 import pickle
 import numpy as np
 
-data_columns = json.load(open("C:\Data Scients\Learn Data Science\Learn MachineLearning\Olx End to End Project\Olx_THP\module\columns_new.json", "r"))['data_columns']
+data_columns = json.load(open("/home/ubuntu/Olx_THP_org/server/artifacts/columns_new.json", "r"))['data_columns']
 locations = data_columns[3:]
 model1 = pickle.load(
-    open("C:/Data Scients/Learn Data Science/Learn MachineLearning/Olx End to End Project/Olx_THP/module/tashkent_new_home_prices_model.pickle", "rb"))
+    open("/home/ubuntu/Olx_THP_org/server/artifacts/tashkent_new_home_prices_model.pickle", "rb"))
 model2 = pickle.load(
-    open("C:/Data Scients/Learn Data Science/Learn MachineLearning/Olx End to End Project/Olx_THP/module/tashkent_secondary_home_prices_model.pickle", "rb"))
+    open("/home/ubuntu/Olx_THP_org/server/artifacts/tashkent_secondary_home_prices_model.pickle", "rb"))
 
 
 def predict_price(area, rooms, district, type):
