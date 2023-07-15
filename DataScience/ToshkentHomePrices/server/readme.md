@@ -34,7 +34,7 @@ This data science project series walks through step by step process of how to bu
    ```
    4. Now when you load cloud url in browser you will see a message saying "welcome to nginx" This means your nginx is setup and running.
 4. Now you need to copy all your code to EC2 instance. You can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here: https://winscp.net/eng/download.php
-5. Once you connect to EC2 instance from winscp (instruction in a youtube video), you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: **/home/ubuntu/BangloreHomePrices**
+5. Once you connect to EC2 instance from winscp (instruction in a youtube video), you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: **/home/ubuntu/Olx_THP_org/**
 6.  After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
     1. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
     ```
