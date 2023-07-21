@@ -22,4 +22,4 @@ Technologies used in this project,
 6. Python flask for http server
 7. HTML/CSS/Javascript for UI
 
-
+This is the website link: http://ec2-16-171-146-119.eu-north-1.compute.amazonaws.com/
